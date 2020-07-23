@@ -9,10 +9,17 @@ namespace TddDevBlog.Tests
         {
         }
 
+        [TearDown]
+        public void Teardown()
+        {
+
+        }
+
         [Test]
         public void Test1()
         {
             Assert.Pass();
+        
         }
     }
 }
